@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayListas/ArrayListas.iml" filepath="$PROJECT_DIR$/ArrayListas/ArrayListas.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Curso-Java-Completo-Nelio-Alves.iml" filepath="$PROJECT_DIR$/.idea/Curso-Java-Completo-Nelio-Alves.iml" />
       <module fileurl="file://$PROJECT_DIR$/LogicaAlgortimos/LogicaAlgortimos.iml" filepath="$PROJECT_DIR$/LogicaAlgortimos/LogicaAlgortimos.iml" />
       <module fileurl="file://$PROJECT_DIR$/OO/OO.iml" filepath="$PROJECT_DIR$/OO/OO.iml" />
