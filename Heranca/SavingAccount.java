@@ -18,6 +18,6 @@ public class SavingAccount extends Acciount{
     }
 
     public void updateBalance(){
-        balance += intersrtRate;
+        //balance += intersrtRate;
     }
 }
