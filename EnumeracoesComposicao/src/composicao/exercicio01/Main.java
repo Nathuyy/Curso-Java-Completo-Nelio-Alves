@@ -1,4 +1,4 @@
-package composicao.exercicio01;
+package EnumeracoesComposicao.src.composicao.exercicio01;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -22,7 +22,7 @@ public class Main {
         String workerLevel = sc.nextLine();
         System.out.print("Base salary: ");
         double baseSalary = sc.nextDouble();
-        Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Department(departmentName));
+//        composicao.exercicio01.Worker worker = new composicao.exercicio01.Worker(workerName, workerLevel.valueOf(workerLevel), baseSalary, new composicao.exercicio01.Department(departmentName));
 
         System.out.print("How many contracts to this worker? ");
         int n = sc.nextInt();
@@ -35,8 +35,8 @@ public class Main {
             double valuePerHour = sc.nextDouble();
             System.out.print("Duration (hours): ");
             int hours = sc.nextInt();
-            HourContract contract = new HourContract(contractDate, valuePerHour, hours);
-            worker.addContract(contract);
+//            HourContract contract = new HourContract(contractDate, valuePerHour, hours);
+//            worker.addContract(contract);
         }
 
         System.out.println();
@@ -44,9 +44,9 @@ public class Main {
         String monthAndYear = sc.next();
         int month = Integer.parseInt(monthAndYear.substring(0, 2));
         int year = Integer.parseInt(monthAndYear.substring(3));
-        System.out.println("Name: " + worker.getName());
-        System.out.println("Department: " + worker.getDepartment().getName());
-        System.out.println("Income for " + monthAndYear + ": " + String.format("%.2f", worker.income(year, month)));
+////        System.out.println("Name: " + worker.getName());
+//        System.out.println("Department: " + worker.getDepartment().getName());
+//        System.out.println("Income for " + monthAndYear + ": " + String.format("%.2f", worker.income(year, month)));
 
         sc.close();
     }
