@@ -15,7 +15,6 @@ public class Main {
 
         for (String key : cookies.keySet()){ //keyset retorna as chaves
             System.out.println(key + ": " + cookies.get(key));
-
         }
     }
 }
