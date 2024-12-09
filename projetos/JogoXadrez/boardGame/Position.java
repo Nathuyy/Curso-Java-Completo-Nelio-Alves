@@ -1,4 +1,4 @@
-package projetos.JogoXadrez;
+package projetos.JogoXadrez.boardGame;
 
 public class Position {
     private int row;
